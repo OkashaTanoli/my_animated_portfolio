@@ -69,7 +69,7 @@ function Skills() {
                         <h1>My Skills and Experience</h1>
                         <FaQuoteLeft className='invertedCommas' />
                         <p className='skillsText'>I am an expert web developer with 1 and half year of experience. I can develop all kinds of websites using ReactJS.
-                            I can also develop mobile apps using React Native. I have developed the website of <a style={{ color: 'brown', fontFamily: 'custom3' }} href='http://barimills.com.pk' target='_blank'>bari mills</a> (A Textile Company). This was a good experience with client. Client's satisfaction is my first priority.</p>
+                            I can also develop mobile apps using React Native. I have developed the website of <a style={{ color: 'brown', fontFamily: 'custom3' }} href='http://barimills.com.pk' target='_blank' rel="noreferrer">bari mills</a> (A Textile Company). This was a good experience with client. Client's satisfaction is my first priority.</p>
                         <FaQuoteRight className='invertedCommas' />
                     </div>
                     <div className='mySkillsSecondDiv'
