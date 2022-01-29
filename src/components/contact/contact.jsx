@@ -129,9 +129,9 @@ function Contact() {
                      data-aos-mirror="true"
                      data-aos-once="false"
                      data-aos-anchor-placement="top">
-                        <a href='https://www.facebook.com/okasha.tanoli.54/' target="_blank"><div><FaFacebookF className='contactIcons' /></div></a>
-                        <a href='https://www.instagram.com/okashatanoli/' target="_blank"><div><FaInstagram className='contactIcons' /></div></a>
-                        <a href='https://www.linkedin.com/in/okasha-aijaz/' target="_blank"><div><FaLinkedinIn className='contactIcons' /></div></a>
+                        <a href='https://www.facebook.com/okasha.tanoli.54/' rel="noreferrer" target="_blank"><div><FaFacebookF className='contactIcons' /></div></a>
+                        <a href='https://www.instagram.com/okashatanoli/' rel="noreferrer" target="_blank"><div><FaInstagram className='contactIcons' /></div></a>
+                        <a href='https://www.linkedin.com/in/okasha-aijaz/' rel="noreferrer" target="_blank"><div><FaLinkedinIn className='contactIcons' /></div></a>
                     </div>
                 </div>
             </div>

@@ -54,7 +54,7 @@ function Header() {
                     <HiOutlineMenuAlt3 className='menuIcon' onClick={() => { setMenu(true) }} />
                 </div>
             </div>
-            <div className='responsiveMenu' style={{ transform: menu == true ? 'translateX(0)' : 'translateX(-100%)' }} >
+            <div className='responsiveMenu' style={{ transform: menu === true ? 'translateX(0)' : 'translateX(-100%)' }} >
                 <AiOutlineClose className='cancelIcon' onClick={() => { setMenu(false) }} />
                 <div className='responsiveMenuItmesDiv'>
                     <div className='navTitle menuNavTitle'>Okasha</div><hr />

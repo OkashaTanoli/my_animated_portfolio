@@ -123,8 +123,8 @@ function Work() {
                                                 <div className='workItemsExtraDiv'></div>
                                                 <div className='cardHeading'>{val.heading}</div>
                                                 <div className='visitingDiv'>
-                                                    <a href={val.site} style={{ textDecoration: 'none' }} target="_blank"><button>Visit Site <FaGlobe className='websiteIcon' /></button></a><br />
-                                                    <a href={val.github} style={{ textDecoration: 'none' }} target="_blank"><button>View On Github <VscGithub className='websiteIcon' /></button></a>
+                                                    <a href={val.site} style={{ textDecoration: 'none' }} rel="noreferrer" target="_blank"><button>Visit Site <FaGlobe className='websiteIcon' /></button></a><br />
+                                                    <a href={val.github} style={{ textDecoration: 'none' }} rel="noreferrer" target="_blank"><button>View On Github <VscGithub className='websiteIcon' /></button></a>
                                                 </div>
                                             </Item>
                                         </Grid>

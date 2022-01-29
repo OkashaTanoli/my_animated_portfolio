@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import './about.css'
-import useWebAnimations, { backInRight, backInLeft, bounce } from '@wellyshen/use-web-animations'
 import MyPic from '../../images/mypic.jpg';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
 import AOS from 'aos';

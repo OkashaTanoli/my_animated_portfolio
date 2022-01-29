@@ -57,7 +57,7 @@ function MianBlock() {
                 </div>
             </div>
             <div className='mainBlock'>
-                <img id='mainBlockBackImage' src={Image} width='100%' />
+                <img id='mainBlockBackImage' src={Image} width='100%' alt='img' />
                 <div className='IntroDiv'
                     data-aos="zoom-in"
                     data-aos-offset="200"
