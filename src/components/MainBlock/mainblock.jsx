@@ -41,17 +41,17 @@ function MianBlock() {
                 data-aos-anchor-placement="top"
             >
                 <div>
-                    <a href="https://www.facebook.com/okasha.tanoli.54/" target='_blank'>
+                    <a href="https://www.facebook.com/okasha.tanoli.54/" rel="noreferrer" target='_blank'>
                         <GrFacebookOption className='fbIcon' />
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.instagram.com/okashatanoli/" target='_blank'>
+                    <a href="https://www.instagram.com/okashatanoli/" rel="noreferrer" target='_blank'>
                         <RiInstagramFill className='instaIcon' />
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/okasha-aijaz/" target='_blank'>
+                    <a href="https://www.linkedin.com/in/okasha-aijaz/" rel="noreferrer" target='_blank'>
                         <GrLinkedinOption className='linkIcon' />
                     </a>
                 </div>
@@ -72,7 +72,7 @@ function MianBlock() {
                         <p className='expPara'>Web Developer</p>
                         <p className='expPara2 expPara'>Web Designer</p>
                     </div>
-                    <a href="https://github.com/OkashaTanoli" style={{ textDecoration: 'none' }} target='_blank'>
+                    <a  href="https://github.com/OkashaTanoli" style={{ textDecoration: 'none' }} rel="noreferrer" target='_blank'>
                         <div className='githubDiv' ref={GithubAnimation.ref}
                             data-aos="flip-left"
                             data-aos-offset="0"
