@@ -1,0 +1,231 @@
+.mainBlock {
+    position: relative;
+    overflow: hidden;
+}
+
+.IntroDiv {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.Helloh1 {
+    color: rgb(238, 238, 238);
+    font-family: custom2;
+    letter-spacing: 7px;
+}
+
+.namePara {
+    font-size: 80px;
+    color: rgb(238, 238, 238);
+    line-height: 0px;
+    letter-spacing: 3px;
+    font-family: custom;
+}
+
+.expPara {
+    line-height: 0px;
+    font-size: 35px;
+    color: rgb(204, 139, 0);
+    font-family: custom3;
+}
+
+.expPara2 {
+    line-height: 0px;
+}
+
+.expDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.wavingIcon {
+    font-size: 35px;
+    margin-right: 10px;
+    color: wheat;
+}
+
+.avatarDiv {
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+
+.socialLinks {
+    position: fixed;
+    top: 45%;
+    left: 0%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(75, 75, 75, 0.815);
+    padding: 5px;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.socialLinks div {
+    padding: 10px 5px;
+}
+
+.fbIcon, .instaIcon, .linkIcon {
+    font-size: 22px !important;
+    color: rgb(255, 255, 255);
+
+}
+
+/* .fbIcon {
+    color: rgb(255, 255, 255);
+}
+
+.instaIcon {
+    color: rgb(255, 255, 255);
+}
+
+.linkIcon {
+    color: rgb(255, 255, 255);
+} */
+
+.githubDiv {
+    margin-top: 30px;
+    padding: 15px 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(230, 230, 230);
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px yellow;
+}
+
+.githubIcon {
+    font-size: 35px;
+    color: rgb(190, 190, 190);
+    margin-left: 20px;
+}
+
+@media (max-width:1300px) {
+    .IntroDiv {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+    .Helloh1 {
+        font-size: 25px !important;
+        letter-spacing: 7px;
+    }
+    .namePara {
+        font-size: 60px;
+        line-height: 0px;
+        letter-spacing: 3px;
+    }
+    .expDiv {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+    }
+    .expPara {
+        line-height: 0px;
+        font-size: 28px;
+    }
+    .avatarDiv {
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+    }
+    .avatarDiv img {
+        width: 250px;
+    }
+}
+
+@media (max-width:1000px) {
+    .IntroDiv {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+    .Helloh1 {
+        font-size: 20px !important;
+        letter-spacing: 5px;
+    }
+    .namePara {
+        font-size: 45px;
+        line-height: 0px;
+        letter-spacing: 2px;
+    }
+    .expDiv {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+    }
+    .expPara {
+        line-height: 0px;
+        font-size: 20px;
+    }
+    .avatarDiv {
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+    }
+    .avatarDiv img {
+        width: 200px;
+    }
+    .githubDiv {
+        margin-top: 40px;
+        padding: 10px 10px;
+        font-size: 18px;
+        width: 200px;
+    }
+    .githubIcon {
+        font-size: 30px;
+        margin-left: 18px;
+    }
+}
+@media (max-width:800px) {
+    #mainBlockBackImage{
+        height: 450px;
+        width: 1000px;
+    }
+    .IntroDiv {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+    .Helloh1 {
+        font-size: 22px !important;
+        letter-spacing: 5px;
+    }
+    .wavingIcon{
+        font-size: 30px;
+    }
+    .namePara {
+        font-size: 35px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+    .expDiv {
+        display: block;
+        width: 300px;
+    }
+    .expPara {
+        line-height: 20px;
+        font-size: 25px;
+    }
+    .avatarDiv {
+        display: none;
+    }
+    .socialLinks {
+        top:auto;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px;
+        box-shadow: 0 0 20px rgb(0, 0, 0);
+    }
+}

@@ -1,0 +1,276 @@
+.contact {
+    width: 100%;
+    background-color: rgb(20, 0, 35);
+    overflow: hidden;
+}
+
+.contactSecondDiv {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
+.contactHeadDiv {
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.contactHead {
+    color: rgb(204, 139, 0);
+    text-align: center;
+    line-height: 0;
+    font-size: 40px;
+    font-family: custom3;
+}
+
+.contactHeadUnderlineMianDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.contactHeadUnderline {
+    /* border-radius: 10px; */
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 100px solid rgb(112, 112, 112);
+    border-bottom: 8px solid transparent;
+    margin-right: -10px;
+}
+
+.contactHeadUnderline2 {
+    /* border-radius: 10px; */
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 100px solid rgb(112, 112, 112);
+    border-bottom: 8px solid transparent;
+    margin-left: -10px;
+}
+
+.contactHeadUnderlineCircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(112, 112, 112);
+}
+
+.contactMainBlock {
+    width: 100%;
+    margin-top: 80px;
+    /* background-color: rgb(228, 228, 228); */
+    padding: 0px;
+}
+
+/* .contactItems{
+    background-color: transparent !important;
+    border: 10px solid rgb(63, 25, 25);
+    width: 250px;
+    height: 250px;
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+} */
+
+.emailIcon {
+    color: rgb(204, 139, 0);
+    font-size: 50px;
+}
+
+.emailDiv {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(204, 139, 0); */
+    border-radius: 50%;
+    border: 2px solid rgb(204, 139, 0);
+}
+
+.arrowIcon {
+    font-size: 50px;
+    color: rgb(204, 139, 0);
+    margin-left: 30px;
+}
+
+.arrowDiv {
+    display: flex;
+    align-items: center;
+}
+
+.contactIndividualBlock {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.myAddress, .myEmail, .myPhone {
+    font-family: custom2;
+    color: rgb(240, 240, 240);
+    margin-left: 40px;
+}
+
+.myEmail {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.myPhone {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.myAddress {
+    font-size: 25px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.contactSocialDiv {
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.contactSocialDiv div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(112, 112, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: .3s;
+}
+
+.contactSocialDiv div:hover {
+    background-color: rgb(204, 139, 0);
+    border: 1px solid transparent;
+}
+
+
+.contactIcons {
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+}
+.contactSocialDiv div:hover .contactIcons {
+    color:rgb(255, 255, 255);
+}
+
+@media (max-width:1050px) {
+    .contactSecondDiv {
+        width: 90%;
+        padding: 30px 0;
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width:850px) {
+    .emailIcon {
+        font-size: 35px;
+    }
+    
+    .emailDiv {
+        padding: 10px;
+    }
+    
+    .arrowIcon {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    .myAddress, .myEmail, .myPhone {
+        margin-left: 30px;
+    }
+    
+    .myEmail {
+        font-size: 25px;
+    }
+    
+    .myPhone {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    
+    .myAddress {
+        font-size: 22px;
+        word-spacing: 3px;
+    }
+    
+}
+@media (max-width:570px) {
+    .emailIcon {
+        font-size: 28px;
+    }
+    
+    .emailDiv {
+        padding: 5px;
+    }
+    
+    .arrowIcon {
+        font-size: 28px;
+        margin-left: 15px;
+    }
+    .myAddress, .myEmail, .myPhone {
+        margin-left: 25px;
+    }
+    
+    .myEmail {
+        font-size: 18px;
+    }
+    
+    .myPhone {
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    
+    .myAddress {
+        font-size: 16px;
+        word-spacing: 0px;
+    }
+    
+}
+@media (max-width:420px) {
+    .emailIcon {
+        font-size: 22px;
+    }
+    
+    .emailDiv {
+        padding: 0px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .arrowIcon {
+        font-size: 22px;
+        margin-left: 6px;
+    }
+    .myAddress, .myEmail, .myPhone {
+        margin-left: 8px;
+    }
+    
+    .myEmail {
+        font-size: 16px;
+    }
+    
+    .myPhone {
+        font-size: 16px;
+    }
+    
+    .myAddress {
+        font-size: 16px;
+    }
+    
+}

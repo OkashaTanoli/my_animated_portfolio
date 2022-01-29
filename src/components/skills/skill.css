@@ -1,0 +1,276 @@
+.mainSkill {
+    width: 100%;
+    background-color: rgb(20, 0, 35);
+    padding: 30px 0;
+    overflow: hidden;
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 100px; */
+    margin-top: 80px;
+}
+
+.skillSecondDiv {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.skillHeadDiv {
+    margin: 0 auto;
+    width: 220px;
+}
+
+.skillHead {
+    color: rgb(204, 139, 0);
+    text-align: center;
+    line-height: 0;
+    font-size: 40px;
+    font-family: custom3;
+}
+
+.skillHeadUnderlineMianDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.skillHeadUnderline {
+    /* border-radius: 10px; */
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 100px solid rgb(112, 112, 112);
+    border-bottom: 8px solid transparent;
+    margin-right: -10px;
+}
+
+.skillHeadUnderline2 {
+    /* border-radius: 10px; */
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 100px solid rgb(112, 112, 112);
+    border-bottom: 8px solid transparent;
+    margin-left: -10px;
+}
+
+.skillHeadUnderlineCircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(112, 112, 112);
+}
+
+.mySkillsDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.mySkillsFirstDiv {
+    width: 45%;
+}
+
+.mySkillsFirstDiv h1 {
+    color: rgb(238, 238, 238);
+    font-family: custom3;
+}
+
+.mySkillsSecondDiv {
+    width: 45%;
+}
+
+.skillsText {
+    font-size: 22px;
+    font-family: custom2;
+    color: rgb(214, 214, 214);
+    text-align: justify;
+    word-spacing: 5px;
+}
+
+.skillsGraphHeadDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+.skillsGraphHead {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: custom;
+    display: flex;
+    align-items: center;
+}
+
+.skillsGraphPercentage {
+    font-size: 20px;
+    font-family: custom3;
+    color: rgb(255, 255, 255);
+}
+
+.skillsBaseDiv {
+    width: 100%;
+    height: 18px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skillPercentageDivHtml, .skillPercentageDivCss, .skillPercentageDivJavaScript, .skillPercentageDivReactJS, .skillPercentageDivReactNative, .skillPercentageDivFirebase {
+    height: 100%;
+}
+
+.skillPercentageDivHtml {
+    background-color: #a3381e;
+    width: 90%;
+}
+
+.skillPercentageDivCss {
+    background-color: #204fbb;
+    width: 80%;
+}
+
+.skillPercentageDivJavaScript {
+    background-color: #cab841;
+    width: 75%;
+}
+
+.skillPercentageDivReactJS {
+    background-color: #4299af;
+    width: 80%;
+}
+
+.skillPercentageDivReactNative {
+    background-color: #224c57;
+    width: 65%;
+}
+
+.skillPercentageDivFirebase {
+    background-color: #e7970e;
+    width: 75%;
+}
+
+.skillsLevelDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsLevelDiv div {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.htmlIcon, .cssIcon, .javascriptIcon, .reactjsIcon, .reactNativeIcon, .firebaseIcon {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.htmlIcon {
+    color: #a3381e;
+}
+
+.cssIcon {
+    color: #204fbb;
+}
+
+.javascriptIcon {
+    color: #cab841;
+}
+
+.reactjsIcon {
+    color: #4299af;
+}
+
+.reactNativeIcon {
+    color: #224c57;
+}
+
+.firebaseIcon {
+    color: #e7970e;
+}
+
+@media (max-width:1150px) {
+    .skillSecondDiv {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+    .mainSkill {
+        margin-top: 50px;
+    }
+    .mySkillsDiv {
+        margin-top: 70px;
+    }
+    .mySkillsFirstDiv {
+        width: 45%;
+    }
+    .mySkillsFirstDiv h1 {
+        font-size: 30px;
+    }
+    .skillsText {
+        font-size: 19px;
+    }
+    .skillsGraphHeadDiv {
+        margin-bottom: 1px;
+    }
+    .skillsGraphHead {
+        font-size: 18px;
+    }
+    .skillsGraphPercentage {
+        font-size: 18px;
+    }
+    .skillsBaseDiv {
+        height: 14px;
+    }
+}
+
+@media (max-width:870px) {
+    .mySkillsDiv {
+        width: 100%;
+        display: block;
+        margin-top: 90px;
+    }
+    .mySkillsDiv {
+        margin-top: 70px;
+    }
+    .mySkillsFirstDiv {
+        width: 100%;
+    }
+    .mySkillsSecondDiv {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .skillsBaseDiv {
+        height: 17px;
+    }
+}
+@media (max-width:500px) {
+    .mySkillsDiv {
+        margin-top: 70px;
+    }
+    .mySkillsFirstDiv {
+        width: 100%;
+    }
+    .mySkillsFirstDiv h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .skillsText{
+        font-size: 18px;
+    }
+    .mySkillsSecondDiv {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .skillsBaseDiv {
+        height: 14px;
+    }
+}

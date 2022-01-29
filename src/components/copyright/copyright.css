@@ -1,0 +1,20 @@
+.copyRight{
+    width: 100%;
+    text-align: center;
+    background-color: #271E35;   
+    padding: 20px 0;
+    color: white;
+    font-size: 20px;
+    font-family: custom2;
+    word-spacing: 5px;
+}
+
+@media (max-width:800px) {
+    .copyRight{
+        padding: 20px 0;
+        padding-bottom: 70px;
+        font-size: 18px;
+        word-spacing: 4px;
+    }
+     
+}
