@@ -1,6 +1,9 @@
 .mainBlock {
     position: relative;
     overflow: hidden;
+    height: 95vh;
+    background: url(../../images/3.png);
+    background-size: cover;    
 }
 
 .IntroDiv {
@@ -48,8 +51,11 @@
 
 .avatarDiv {
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     right: 15%;
+}
+.avatarDiv img{
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.623));
 }
 
 .socialLinks {
@@ -74,17 +80,6 @@
 
 }
 
-/* .fbIcon {
-    color: rgb(255, 255, 255);
-}
-
-.instaIcon {
-    color: rgb(255, 255, 255);
-}
-
-.linkIcon {
-    color: rgb(255, 255, 255);
-} */
 
 .githubDiv {
     margin-top: 30px;
@@ -101,8 +96,8 @@
 }
 
 .githubIcon {
-    font-size: 35px;
-    color: rgb(190, 190, 190);
+    font-size: 40px;
+    color: rgb(190, 190, 190) !important;
     margin-left: 20px;
 }
 
@@ -141,6 +136,9 @@
 }
 
 @media (max-width:1000px) {
+    .mainBlock {
+        height: 75vh;
+    }
     .IntroDiv {
         position: absolute;
         top: 20%;
@@ -184,9 +182,8 @@
     }
 }
 @media (max-width:800px) {
-    #mainBlockBackImage{
-        height: 450px;
-        width: 1000px;
+    .mainBlock {
+        height: 500px;
     }
     .IntroDiv {
         position: absolute;

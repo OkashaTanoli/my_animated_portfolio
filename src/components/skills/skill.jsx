@@ -1,23 +1,31 @@
 import React, { useEffect } from "react";
 import './skill.css'
-import { FaQuoteLeft, FaQuoteRight, FaCss3Alt, FaHtml5, FaReact } from 'react-icons/fa'
-import { SiFirebase, SiJavascript } from 'react-icons/si'
+import { FaQuoteLeft, FaQuoteRight, FaCss3Alt, FaHtml5, FaReact, FaGithub } from 'react-icons/fa'
+import { SiFirebase, SiJavascript, SiRedux, SiTypescript, SiMaterialui, SiGraphql } from 'react-icons/si'
 import AOS from 'aos';
+import PWA from '../../images/pwa.png'
 import 'aos/dist/aos.css';
 
 
 function Skills() {
     let Skills = [
-        { skillName: 'HTML', percentage: 90, class: 'skillPercentageDivHtml', icon: <FaHtml5 className='htmlIcon' /> },
-        { skillName: 'CSS', percentage: 80, class: 'skillPercentageDivCss', icon: <FaCss3Alt className='cssIcon' /> },
-        { skillName: 'Javascript', percentage: 75, class: 'skillPercentageDivJavaScript', icon: <SiJavascript className='javascriptIcon' /> },
-        { skillName: 'ReactJS', percentage: 80, class: 'skillPercentageDivReactJS', icon: <FaReact className='reactjsIcon' /> },
-        { skillName: 'React Native', percentage: 65, class: 'skillPercentageDivReactNative', icon: <FaReact className='reactNativeIcon' /> },
-        { skillName: 'Firebase', percentage: 75, class: 'skillPercentageDivFirebase', icon: <SiFirebase className='firebaseIcon' /> },
+        { skillName: 'HTML', icon: <FaHtml5 className='htmlIcon' /> },
+        { skillName: 'CSS', icon: <FaCss3Alt className='cssIcon' /> },
+        { skillName: 'Javascript', icon: <SiJavascript className='javascriptIcon' /> },
+        { skillName: 'ReactJS', icon: <FaReact className='reactjsIcon' /> },
+        { skillName: 'React Native', icon: <FaReact className='reactNativeIcon' /> },
+        { skillName: 'Firebase', icon: <SiFirebase className='firebaseIcon' /> },
+        { skillName: 'Redux', icon: <SiRedux className='reduxIcon' /> },
+        { skillName: 'TypeScript', icon: <SiTypescript className='typescriptIcon' /> },
+        { skillName: 'MaterialUI', icon: <SiMaterialui className='materialuiIcon' /> },
+        { skillName: 'Github', icon: <FaGithub className='githubIcon' /> },
+        { skillName: 'GraphQL', icon: <SiGraphql className='graphqlIcon' /> },
+        { skillName: 'Progressive Web App', icon: <img src={PWA} className='pwaIcon' /> },
     ]
     useEffect(() => {
         AOS.init();
     }, [])
+
     return (
         <div className='mainSkill' id='skills'>
             <div className='skillSecondDiv'>
@@ -83,19 +91,23 @@ function Skills() {
                         {
                             Skills.map((val, index) => {
                                 return (
-                                    <div className='skillsGraphDiv' key={index} >
-                                        <div className='skillsGraphHeadDiv'>
-                                            <div className='skillsGraphHead'>{val.skillName} {val.icon}</div>
-                                            <div className='skillsGraphPercentage'>{val.percentage}%</div>
-                                        </div>
-                                        <div className='skillsBaseDiv'>
-                                            <div className={val.class}></div>
-                                        </div>
-                                        <div className='skillsLevelDiv'>
-                                            <div>Basic</div>
-                                            <div>Intermediate</div>
-                                            <div>Expert</div>
-                                        </div>
+                                    // <div className='skillsGraphDiv' key={index} >
+                                    //     <div className='skillsGraphHeadDiv'>
+                                    //         <div className='skillsGraphHead'>{val.skillName} {val.icon}</div>
+                                    //         <div className='skillsGraphPercentage'>{val.percentage}%</div>
+                                    //     </div>
+                                    //     <div className='skillsBaseDiv'>
+                                    //         <div className={val.class}></div>
+                                    //     </div>
+                                    //     <div className='skillsLevelDiv'>
+                                    //         <div>Basic</div>
+                                    //         <div>Intermediate</div>
+                                    //         <div>Expert</div>
+                                    //     </div>
+                                    // </div>
+                                    <div className="my_skills ">
+                                        <div className="extra_div_my_skills"></div>
+                                        <div className='my_skills_second'>{val.skillName} {val.icon}</div>
                                     </div>
                                 )
                             })

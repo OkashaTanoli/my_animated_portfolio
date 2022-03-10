@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './mainblock.css'
-import Image from '../../images/3.png'
+// import Image from '../../images/3.png'
 import Avatar from '../../images/avatar.png'
 import useWebAnimations from '@wellyshen/use-web-animations'
 import { MdWavingHand } from 'react-icons/md'
@@ -57,7 +57,7 @@ function MianBlock() {
                 </div>
             </div>
             <div className='mainBlock'>
-                <img id='mainBlockBackImage' src={Image} width='100%' alt='img' />
+                {/* <img id='mainBlockBackImage' src={Image} height='100vh' width='100%' alt='img' /> */}
                 <div className='IntroDiv'
                     data-aos="zoom-in"
                     data-aos-offset="200"
@@ -82,7 +82,7 @@ function MianBlock() {
                             data-aos-once="true"
                             data-aos-anchor-placement="top" >
                             Github Account
-                            <VscGithubInverted className='githubIcon' />
+                            <VscGithubInverted size={35} className='githubIcon' />
                         </div>
                     </a>
                 </div>

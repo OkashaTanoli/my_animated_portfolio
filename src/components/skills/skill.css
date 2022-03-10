@@ -82,6 +82,34 @@
 
 .mySkillsSecondDiv {
     width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my_skills {
+    margin: 5px;
+    border: 1px solid rgba(59, 59, 59, 0.602);
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.extra_div_my_skills {
+    position: absolute;
+    width: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transition: .5s all;
+    height: 100%;
+}
+
+.my_skills:hover .extra_div_my_skills {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+
 }
 
 .skillsText {
@@ -92,41 +120,22 @@
     word-spacing: 5px;
 }
 
-.skillsGraphHeadDiv {
+/* .skillsGraphHeadDiv {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 5px;
-}
-
-.skillsGraphHead {
+} */
+.my_skills_second {
     font-size: 20px;
     color: rgb(255, 255, 255);
     font-family: custom;
     display: flex;
     align-items: center;
+    display: flex;
 }
 
-.skillsGraphPercentage {
-    font-size: 20px;
-    font-family: custom3;
-    color: rgb(255, 255, 255);
-}
-
-.skillsBaseDiv {
-    width: 100%;
-    height: 18px;
-    background-color: rgb(212, 212, 212);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.skillPercentageDivHtml, .skillPercentageDivCss, .skillPercentageDivJavaScript, .skillPercentageDivReactJS, .skillPercentageDivReactNative, .skillPercentageDivFirebase {
-    height: 100%;
-}
-
-.skillPercentageDivHtml {
+/* .skillPercentageDivHtml {
     background-color: #a3381e;
     width: 90%;
 }
@@ -165,9 +174,9 @@
     font-size: 14px;
     color: gray;
     margin-bottom: 20px;
-}
+} */
 
-.htmlIcon, .cssIcon, .javascriptIcon, .reactjsIcon, .reactNativeIcon, .firebaseIcon {
+.htmlIcon, .cssIcon, .javascriptIcon, .reactjsIcon, .reactNativeIcon, .firebaseIcon, .reduxIcon, .typescriptIcon, .materialuiIcon, .githubIcon, .graphqlIcon {
     margin-left: 10px;
     font-size: 25px;
 }
@@ -196,6 +205,32 @@
     color: #e7970e;
 }
 
+.reduxIcon {
+    color: #7248B6;
+}
+
+.typescriptIcon {
+    color: #1573C1;
+}
+
+.pwaIcon {
+    width: 50px;
+    margin-left: 10px;
+    /* filter: grayscale(0.9); */
+}
+
+.materialuiIcon {
+    color: #28B0EE;
+}
+
+.githubIcon {
+    color: #212121;
+}
+
+.graphqlIcon {
+    color: #DA0093;
+}
+
 @media (max-width:1150px) {
     .skillSecondDiv {
         width: 90%;
@@ -203,33 +238,42 @@
         margin-top: 80px;
         margin-bottom: 70px;
     }
+
     .mainSkill {
         margin-top: 50px;
     }
+
     .mySkillsDiv {
         margin-top: 70px;
     }
+
     .mySkillsFirstDiv {
         width: 45%;
     }
+
     .mySkillsFirstDiv h1 {
         font-size: 30px;
     }
+
     .skillsText {
         font-size: 19px;
     }
-    .skillsGraphHeadDiv {
+
+    /* .skillsGraphHeadDiv {
         margin-bottom: 1px;
-    }
-    .skillsGraphHead {
+    } */
+
+    .my_skills_second {
         font-size: 18px;
     }
-    .skillsGraphPercentage {
+
+    /* .skillsGraphPercentage {
         font-size: 18px;
     }
+
     .skillsBaseDiv {
         height: 14px;
-    }
+    } */
 }
 
 @media (max-width:870px) {
@@ -238,39 +282,63 @@
         display: block;
         margin-top: 90px;
     }
+
     .mySkillsDiv {
         margin-top: 70px;
     }
+
     .mySkillsFirstDiv {
         width: 100%;
     }
+
     .mySkillsSecondDiv {
         width: 100%;
         margin-top: 50px;
     }
+
+    /* 
     .skillsBaseDiv {
         height: 17px;
-    }
+    } */
 }
+
 @media (max-width:500px) {
     .mySkillsDiv {
         margin-top: 70px;
     }
+
     .mySkillsFirstDiv {
         width: 100%;
     }
-    .mySkillsFirstDiv h1{
+
+    .mySkillsFirstDiv h1 {
         font-size: 25px;
         text-align: center;
     }
-    .skillsText{
+
+    .skillsText {
         font-size: 18px;
     }
+
     .mySkillsSecondDiv {
         width: 100%;
         margin-top: 50px;
     }
+
+    .mySkillsSecondDiv {
+        width: 100%;
+        display: block;
+    }
+    .my_skills {
+        justify-content: space-between !important;
+    }
+
+    .my_skills_second {
+        width: 100% !important;
+    }
+
+    /* 
     .skillsBaseDiv {
         height: 14px;
-    }
+    } */
 }
