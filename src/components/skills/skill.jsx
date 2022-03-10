@@ -20,7 +20,7 @@ function Skills() {
         { skillName: 'MaterialUI', icon: <SiMaterialui className='materialuiIcon' /> },
         { skillName: 'Github', icon: <FaGithub className='githubIcon' /> },
         { skillName: 'GraphQL', icon: <SiGraphql className='graphqlIcon' /> },
-        { skillName: 'Progressive Web App', icon: <img src={PWA} className='pwaIcon' /> },
+        { skillName: 'Progressive Web App', icon: <img src={PWA} className='pwaIcon' alt="pwa_img" /> },
     ]
     useEffect(() => {
         AOS.init();
