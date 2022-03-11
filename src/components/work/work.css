@@ -80,6 +80,7 @@
     line-height: 0 !important;
     box-shadow: 0 0 40px rgb(107, 107, 107) !important;
     position: relative;
+    min-height: 250px;
 }
 
 .workItems:hover .workImages {

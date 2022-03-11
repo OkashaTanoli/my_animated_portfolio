@@ -1,6 +1,7 @@
 .header{
     display: flex;
     position: sticky;
+    padding: 0 20px;
     top: 0;
     z-index: 11;
     justify-content: space-around;
@@ -10,13 +11,17 @@
     text-shadow: 0 0 10px rgb(187, 187, 187);
 }
 .navTitle{
-    width: 200px;
+    width: 90%;
+    margin: 0 auto;
     font-size: 25px;
     color: rgb(233, 233, 233);
     font-weight: 700;
     text-transform: uppercase;
     font-family:custom3;
     letter-spacing: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 .navItems{
@@ -44,22 +49,19 @@
     z-index: 111;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.74);
     transform: translateX(-100%);
     transition: all .5s ease-in-out;
-    /* position: relative; */
-
 }
 .responsiveMenuItmesDiv{
-    width: 60%;
+    width: 100%;
     height: 100%;
-    background-color: rgb(20, 0, 35);
+    background-color: rgba(20, 0, 35, 0.746);
     position: relative;
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.657) inset;
-    border-bottom-right-radius: 50px;
+    backdrop-filter: blur(20px);
 }
 .menuNavTitle{
-    padding: 20px;
+    padding: 10px;
+    box-shadow:inset 0 0 30px  rgba(0, 0, 0, 0.507);
 }
 .menuNavItems{
     padding: 30px;
@@ -81,7 +83,7 @@
     margin-right: 25px;
     color: rgb(204, 139, 0);
 }
-.menuAvatarDiv{
+/* .menuAvatarDiv{
     display: flex;
     justify-content: center;
     position: absolute;
@@ -92,14 +94,14 @@
 .menuAvatar{
     width: 130px;
 
-}
+} */
 
 .cancelIcon{
     font-size: 40px;
-    color: white !important;
-    position: absolute;
+    color: rgb(160, 160, 160) !important;
+    /* position: absolute;
     right: 4%;
-    top: 2%;
+    top: 2%; */
 }
 
 @media (max-width:800px) {
@@ -112,16 +114,5 @@
     }
     .menuIconDiv{
         display: block;
-    }
-}
-
-@media (max-width:500px) {
-    .responsiveMenuItmesDiv{
-        width: 75%;
-        height: 100%;
-        background-color: rgb(20, 0, 35);
-        position: relative;
-        box-shadow: 0 0 100px rgba(0, 0, 0, 0.657) inset;
-        border-bottom-right-radius: 50px;
     }
 }

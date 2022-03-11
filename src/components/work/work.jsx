@@ -10,6 +10,8 @@ import Expense from '../../images/expense.png'
 import ShortAnimation from '../../images/shortanimation.png'
 import Olx from '../../images/olx.png'
 import RedQueen from '../../images/redqueen.png'
+import Timer from '../../images/timer.png'
+import Quiz from '../../images/quiz.png'
 import { FaGlobe } from 'react-icons/fa'
 import { VscGithub } from 'react-icons/vsc'
 import AOS from 'aos';
@@ -55,6 +57,18 @@ function Work() {
             site: 'https://react-309aa.web.app',
             github: 'https://github.com/OkashaTanoli/olx-replica',
             heading: 'Olx Replica'
+        },
+        {
+            image: Timer,
+            site: 'https://timer-tdd-okasha.surge.sh/',
+            github: 'https://github.com/OkashaTanoli/timer-app-tyscript-tdd',
+            heading: 'Timer App'
+        },
+        {
+            image: Quiz,
+            site: 'https://quiz-app-tyscript-pwa-okasha.surge.sh',
+            github: 'https://github.com/OkashaTanoli/quiz-app-typescript-pwa',
+            heading: 'Quiz App'
         },
     ]
     const Item = styled(Paper)(({ theme }) => ({

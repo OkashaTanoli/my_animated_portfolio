@@ -6,7 +6,7 @@ import { HiOutlineMenuAlt3 } from 'react-icons/hi'
 import { AiFillHome, AiFillContacts, AiOutlineClose } from 'react-icons/ai'
 import { GiSkills } from 'react-icons/gi'
 import { MdWork } from 'react-icons/md'
-import Avatar from '../../images/avatar.png'
+// import Avatar from '../../images/avatar.png'
 
 function Header() {
     useEffect(() => {
@@ -55,18 +55,20 @@ function Header() {
                 </div>
             </div>
             <div className='responsiveMenu' style={{ transform: menu === true ? 'translateX(0)' : 'translateX(-100%)' }} >
-                <AiOutlineClose className='cancelIcon' onClick={() => { setMenu(false) }} />
                 <div className='responsiveMenuItmesDiv'>
-                    <div className='navTitle menuNavTitle'>Okasha</div><hr />
+                    <div className='navTitle menuNavTitle'>Okasha
+                        <AiOutlineClose className='cancelIcon' onClick={() => { setMenu(false) }} />
+                    </div>
+                    {/* <hr /> */}
                     <ul className='menuNavItems'>
                         <li><a href="#about" style={{ textDecoration: 'none', color: 'white' }} onClick={() => { setMenu(false) }}><AiFillHome className='menuBarIcons' /> About</a></li>
                         <li><a href="#skills" style={{ textDecoration: 'none', color: 'white' }} onClick={() => { setMenu(false) }}><GiSkills className='menuBarIcons' /> Skills</a></li>
                         <li><a href="#work" style={{ textDecoration: 'none', color: 'white' }} onClick={() => { setMenu(false) }}><MdWork className='menuBarIcons' /> Work</a></li>
                         <li><a href="#contact" style={{ textDecoration: 'none', color: 'white' }} onClick={() => { setMenu(false) }}><AiFillContacts className='menuBarIcons' />Contact</a></li>
                     </ul>
-                    <div className='menuAvatarDiv'>
+                    {/* <div className='menuAvatarDiv'>
                         <img className='menuAvatar' src={Avatar} alt="" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>
