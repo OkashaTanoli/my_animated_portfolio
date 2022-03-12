@@ -200,3 +200,9 @@
     }
 
 }
+
+@media(max-width:550px) {
+    .workItems {
+        min-height: 150px;
+    }
+}
