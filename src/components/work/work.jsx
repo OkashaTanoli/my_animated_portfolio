@@ -12,6 +12,7 @@ import Olx from '../../images/olx.png'
 import RedQueen from '../../images/redqueen.png'
 import Timer from '../../images/timer.png'
 import Quiz from '../../images/quiz.png'
+import ShoppingCart from '../../images/shoppingcart.png'
 import { FaGlobe } from 'react-icons/fa'
 import { VscGithub } from 'react-icons/vsc'
 import AOS from 'aos';
@@ -69,6 +70,12 @@ function Work() {
             site: 'https://quiz-app-tyscript-pwa-okasha.surge.sh',
             github: 'https://github.com/OkashaTanoli/quiz-app-typescript-pwa',
             heading: 'Quiz App'
+        },
+        {
+            image: ShoppingCart,
+            site: 'https://shopping-cart-using-redux-toolkit.surge.sh/',
+            github: 'https://github.com/OkashaTanoli/shopping-basket-using-redux-toolkit',
+            heading: 'Shopping Cart'
         },
     ]
     const Item = styled(Paper)(({ theme }) => ({
