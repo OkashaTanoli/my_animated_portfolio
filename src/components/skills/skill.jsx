@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import './skill.css'
-import { FaQuoteLeft, FaQuoteRight, FaCss3Alt, FaHtml5, FaReact, FaGithub } from 'react-icons/fa'
-import { SiFirebase, SiJavascript, SiRedux, SiTypescript, SiMaterialui, SiGraphql } from 'react-icons/si'
+import { FaQuoteLeft, FaQuoteRight, FaCss3Alt, FaHtml5, FaReact, FaGithub, FaNodeJs } from 'react-icons/fa'
+import { SiFirebase, SiJavascript, SiRedux, SiTypescript, SiMaterialui, SiGraphql, SiMongodb, SiExpress } from 'react-icons/si'
 import AOS from 'aos';
 import PWA from '../../images/pwa.png'
 import 'aos/dist/aos.css';
@@ -20,6 +20,9 @@ function Skills() {
         { skillName: 'MaterialUI', icon: <SiMaterialui className='materialuiIcon' /> },
         { skillName: 'Github', icon: <FaGithub className='githubIcon' /> },
         { skillName: 'GraphQL', icon: <SiGraphql className='graphqlIcon' /> },
+        { skillName: 'NodeJS', icon: <FaNodeJs className='nodeIcon' /> },
+        { skillName: 'MongoDB', icon: <SiMongodb className='mongoIcon' /> },
+        { skillName: 'ExpressJS', icon: <SiExpress className='ExpressIcon' /> },
         { skillName: 'Progressive Web App', icon: <img src={PWA} className='pwaIcon' alt="pwa_img" /> },
     ]
     useEffect(() => {
