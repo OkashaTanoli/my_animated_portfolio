@@ -93,7 +93,8 @@ function About() {
                         <div className='qualificationExtraDiv'></div>
                         <ul>
                             <li className='matriculation'>I have passed matriculation examination from F.G. Public School Karachi Cantt with  <span style={{ fontSize: '25px', fontFamily: 'sans-serif', fontWeight: '800' }}>91.1%</span> (A+ Grade).</li>
-                            <li className='matriculation'>Currently I am studying ICS from F.G Boys Inter College Karachi.</li>
+                            <li className='matriculation'>I have passed intermediate from F.G Boys Inter College Karachi with <span style={{ fontSize: '25px', fontFamily: 'sans-serif', fontWeight: '800' }}>77.4%</span> (A Grade).</li>
+                            {/* <li className='matriculation'>Currently I am studying ICS from F.G Boys Inter College Karachi.</li> */}
 
                         </ul>
                     </div>
