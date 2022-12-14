@@ -13,6 +13,8 @@ import RedQueen from '../../images/redqueen.png'
 import Timer from '../../images/timer.png'
 import Quiz from '../../images/quiz.png'
 import ShoppingCart from '../../images/shoppingcart.png'
+import HostelSite from '../../images/hostel.png'
+import SpaceX from '../../images/spacex.png'
 import { FaGlobe } from 'react-icons/fa'
 import { VscGithub } from 'react-icons/vsc'
 import AOS from 'aos';
@@ -76,6 +78,18 @@ function Work() {
             site: 'https://shopping-cart-using-redux-toolkit.surge.sh/',
             github: 'https://github.com/OkashaTanoli/shopping-basket-using-redux-toolkit',
             heading: 'Shopping Cart'
+        },
+        {
+            image: HostelSite,
+            site: 'https://easyaccomodations.com/',
+            github: 'https://github.com/OkashaTanoli/hostel_site',
+            heading: 'Hostel Site'
+        },
+        {
+            image: SpaceX,
+            site: 'http://spacex-graphgql-okasha.surge.sh/',
+            github: 'https://github.com/OkashaTanoli/spacex-graphql',
+            heading: 'Space X'
         },
     ]
     const Item = styled(Paper)(({ theme }) => ({
