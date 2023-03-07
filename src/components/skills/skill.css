@@ -176,7 +176,7 @@
     margin-bottom: 20px;
 } */
 
-.htmlIcon, .cssIcon, .javascriptIcon, .reactjsIcon, .reactNativeIcon, .firebaseIcon, .reduxIcon, .typescriptIcon, .materialuiIcon, .githubIcon, .graphqlIcon, .nodeIcon, .mongoIcon, .ExpressIcon {
+.htmlIcon, .cssIcon, .javascriptIcon, .reactjsIcon, .reactNativeIcon, .firebaseIcon, .reduxIcon, .typescriptIcon, .materialuiIcon, .githubIcon, .graphqlIcon, .nodeIcon, .mongoIcon, .ExpressIcon,.TailwindIcon,.NextIcon {
     margin-left: 10px;
     font-size: 25px;
 }
@@ -239,8 +239,12 @@
 .ExpressIcon{
     color :rgb(98, 98, 98);
 }
-
-
+.TailwindIcon{
+    color: #06B0CD;
+}
+.NextIcon{
+    color: rgb(47, 47, 47);
+}
 @media (max-width:1150px) {
     .skillSecondDiv {
         width: 90%;

@@ -15,6 +15,9 @@ import Quiz from '../../images/quiz.png'
 import ShoppingCart from '../../images/shoppingcart.png'
 import HostelSite from '../../images/hostel.png'
 import SpaceX from '../../images/spacex.png'
+import Todo from '../../images/todo.png'
+import Panaverse from '../../images/panaverse.png'
+import Piaic from '../../images/piaic.png'
 import { FaGlobe } from 'react-icons/fa'
 import { VscGithub } from 'react-icons/vsc'
 import AOS from 'aos';
@@ -25,6 +28,24 @@ function Work() {
         AOS.init();
     }, [])
     const cards = [
+        {
+            image: Todo,
+            site: 'https://okasha-todo-app.vercel.app/',
+            github: 'https://github.com/OkashaTanoli/nextjs-todo-app',
+            heading: 'Todo App (Next JS)'
+        },
+        {
+            image: Panaverse,
+            site: 'https://panaverse-dao-ultra.vercel.app/',
+            github: 'https://github.com/OkashaTanoli/panaverse-website',
+            heading: 'Panaverse Site (Next JS)'
+        },
+        {
+            image: Piaic,
+            site: 'https://piaic-ultra.vercel.app/',
+            github: 'https://github.com/OkashaTanoli/piaic-website',
+            heading: 'PIAIC Site (Next JS)'
+        },
         {
             image: Expense,
             site: 'https://expense-tracker-app-okasha.surge.sh/',

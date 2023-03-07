@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import './skill.css'
 import { FaQuoteLeft, FaQuoteRight, FaCss3Alt, FaHtml5, FaReact, FaGithub, FaNodeJs } from 'react-icons/fa'
-import { SiFirebase, SiJavascript, SiRedux, SiTypescript, SiMaterialui, SiGraphql, SiMongodb, SiExpress } from 'react-icons/si'
+import { SiFirebase, SiJavascript, SiRedux, SiTypescript, SiMaterialui, SiGraphql, SiMongodb, SiExpress,SiNextdotjs, SiTailwindcss } from 'react-icons/si'
 import AOS from 'aos';
 import PWA from '../../images/pwa.png'
 import 'aos/dist/aos.css';
@@ -24,6 +24,8 @@ function Skills() {
         { skillName: 'MongoDB', icon: <SiMongodb className='mongoIcon' /> },
         { skillName: 'ExpressJS', icon: <SiExpress className='ExpressIcon' /> },
         { skillName: 'Progressive Web App', icon: <img src={PWA} className='pwaIcon' alt="pwa_img" /> },
+        { skillName: 'NextJS', icon: <SiNextdotjs className='NextIcon' /> },
+        { skillName: 'Tailwind CSS', icon: <SiTailwindcss className='TailwindIcon' /> },
     ]
     useEffect(() => {
         AOS.init();
@@ -79,8 +81,8 @@ function Skills() {
                         data-aos-anchor-placement="top">
                         <h1>My Skills and Experience</h1>
                         <FaQuoteLeft className='invertedCommas' />
-                        <p className='skillsText'>I am an expert web developer with 1 and half year of experience. I can develop all kinds of websites using ReactJS.
-                            I can also develop mobile apps using React Native. I have developed the website of <a style={{ color: 'brown', fontFamily: 'custom3' }} href='http://barimills.com.pk' target='_blank' rel="noreferrer">bari mills</a> (A Textile Company). This was a good experience with client. Client's satisfaction is my first priority.</p>
+                        <p className='skillsText'>I am an expert web developer with 1 and half year of experience. I can develop all kinds of websites using ReactJS and NextJS.
+                            I can also develop mobile apps using React Native. I have worked on many national and international projects. Few of sample projects are listed in work section. </p>
                         <FaQuoteRight className='invertedCommas' />
                     </div>
                     <div className='mySkillsSecondDiv'
