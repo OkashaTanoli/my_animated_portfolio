@@ -4,7 +4,7 @@ import './copyright.css'
 function CopyRight() {
     return(
         <div className='copyRight'>
-            OKASHA_TANOLI copyright © 2021
+            OKASHA_TANOLI copyright © 2023
         </div>
     )
 }

@@ -1,9 +1,12 @@
 import React, { useEffect } from "react";
 import './skill.css'
-import { FaQuoteLeft, FaQuoteRight, FaCss3Alt, FaHtml5, FaReact, FaGithub, FaNodeJs } from 'react-icons/fa'
-import { SiFirebase, SiJavascript, SiRedux, SiTypescript, SiMaterialui, SiGraphql, SiMongodb, SiExpress,SiNextdotjs, SiTailwindcss } from 'react-icons/si'
+import { FaCss3Alt, FaHtml5, FaReact, FaGithub, FaNodeJs } from 'react-icons/fa'
+import { SiFirebase, SiJavascript, SiRedux, SiTypescript, SiMaterialui, SiGraphql, SiMongodb, SiExpress, SiNextdotjs, SiTailwindcss, SiOpenai } from 'react-icons/si'
 import AOS from 'aos';
 import PWA from '../../images/pwa.png'
+import Sanity from '../../images/sanity.png'
+import Postgresql from '../../images/postgresql.png'
+import Supabase from '../../images/supabase.png'
 import 'aos/dist/aos.css';
 
 
@@ -12,20 +15,24 @@ function Skills() {
         { skillName: 'HTML', icon: <FaHtml5 className='htmlIcon' /> },
         { skillName: 'CSS', icon: <FaCss3Alt className='cssIcon' /> },
         { skillName: 'Javascript', icon: <SiJavascript className='javascriptIcon' /> },
-        { skillName: 'ReactJS', icon: <FaReact className='reactjsIcon' /> },
-        { skillName: 'React Native', icon: <FaReact className='reactNativeIcon' /> },
-        { skillName: 'Firebase', icon: <SiFirebase className='firebaseIcon' /> },
-        { skillName: 'Redux', icon: <SiRedux className='reduxIcon' /> },
         { skillName: 'TypeScript', icon: <SiTypescript className='typescriptIcon' /> },
-        { skillName: 'MaterialUI', icon: <SiMaterialui className='materialuiIcon' /> },
-        { skillName: 'Github', icon: <FaGithub className='githubIcon' /> },
-        { skillName: 'GraphQL', icon: <SiGraphql className='graphqlIcon' /> },
-        { skillName: 'NodeJS', icon: <FaNodeJs className='nodeIcon' /> },
-        { skillName: 'MongoDB', icon: <SiMongodb className='mongoIcon' /> },
-        { skillName: 'ExpressJS', icon: <SiExpress className='ExpressIcon' /> },
-        { skillName: 'Progressive Web App', icon: <img src={PWA} className='pwaIcon' alt="pwa_img" /> },
+        { skillName: 'ReactJS', icon: <FaReact className='reactjsIcon' /> },
         { skillName: 'NextJS', icon: <SiNextdotjs className='NextIcon' /> },
+        { skillName: 'Redux', icon: <SiRedux className='reduxIcon' /> },
+        { skillName: 'Progressive Web App', icon: <img src={PWA} className='pwaIcon' alt="pwa_img" /> },
         { skillName: 'Tailwind CSS', icon: <SiTailwindcss className='TailwindIcon' /> },
+        { skillName: 'MaterialUI', icon: <SiMaterialui className='materialuiIcon' /> },
+        { skillName: 'React Native', icon: <FaReact className='reactNativeIcon' /> },
+        { skillName: 'Github', icon: <FaGithub className='githubIcon' /> },
+        { skillName: 'Sanity', icon: <img src={Sanity} className='sanityIcon' alt="Sanity_img" /> },
+        { skillName: 'NodeJS', icon: <FaNodeJs className='nodeIcon' /> },
+        { skillName: 'ExpressJS', icon: <SiExpress className='ExpressIcon' /> },
+        { skillName: 'MongoDB', icon: <SiMongodb className='mongoIcon' /> },
+        { skillName: 'PostgreSQL', icon: <img src={Postgresql} className='postgresqlIcon' alt="Postgresql_img" /> },
+        { skillName: 'GraphQL', icon: <SiGraphql className='graphqlIcon' /> },
+        { skillName: 'OpenAi', icon: <SiOpenai className='openaiIcon' /> },
+        { skillName: 'Firebase', icon: <SiFirebase className='firebaseIcon' /> },
+        { skillName: 'Supabase', icon: <img src={Supabase} className='supabaseIcon' alt="Supabase_img" /> },
     ]
     useEffect(() => {
         AOS.init();
@@ -42,7 +49,7 @@ function Skills() {
                         data-aos-duration="1000"
                         data-aos-mirror="true"
                         data-aos-once="false"
-                        data-aos-anchor-placement="top">My Skills</h1>
+                        data-aos-anchor-placement="top">Skills and Experience</h1>
                     <div className='skillHeadUnderlineMianDiv'>
                         <div className='skillHeadUnderline'
                             data-aos="fade-right"
@@ -79,11 +86,37 @@ function Skills() {
                         data-aos-mirror="true"
                         data-aos-once="false"
                         data-aos-anchor-placement="top">
-                        <h1>My Skills and Experience</h1>
-                        <FaQuoteLeft className='invertedCommas' />
-                        <p className='skillsText'>I am an expert web developer with 1 and half year of experience. I can develop all kinds of websites using ReactJS and NextJS.
-                            I can also develop mobile apps using React Native. I have worked on many national and international projects. Few of sample projects are listed in work section. </p>
-                        <FaQuoteRight className='invertedCommas' />
+                        {/* <h1 style={{fontSize:'35px'}}>Experience</h1> */}
+                        <div style={{ color: '#e0e0e0', lineHeight: '10px' }}>
+                            <p style={{ fontSize: '18px', fontWeight: 600 }}>Sep 2020 - Present</p>
+                            <p style={{ fontSize: '18px' }}>Freelance</p>
+                            <p style={{ fontSize: '23px', fontWeight: 'bold' }}>Full Stack Developer</p>
+                            <p style={{ lineHeight: 'initial' }}>Developed Full-Stack applications using the latest technologies</p>
+                            <ul style={{ lineHeight: 'initial' }}>
+                                <li>Front-end development with React.js and Next.js.</li>
+                                <li>Styling expertise with Tailwind CSS, MUI, Chakra UI, Shadcn UI, and Custom CSS.</li>
+                                <li>Content management through Contentful and Sanity (Headless CMS).</li>
+                                <li>Back-end development using Node.js, Express.js, and Next.js API routes.</li>
+                                <li>MongoDB and PostgreSQL for Database.</li>
+                                <li>Utilizing Firebase and Supabase as Backend-as-a-Service (BaaS).</li>
+                                <li>OpenAI for fine-tuning and embedding.</li>
+                            </ul>
+                        </div>
+
+                        <div style={{ color: '#e0e0e0', lineHeight: '10px', marginTop: '60px' }}>
+                            <p style={{ fontSize: '18px', fontWeight: 600 }}>March 2023 - Present</p>
+                            <p style={{ fontSize: '18px' }}>Panacloud</p>
+                            <p style={{ fontSize: '23px', fontWeight: 'bold' }}>Full Stack Developer</p>
+                            <p style={{ lineHeight: 'initial' }}>
+                                Working on multiple full-stack products that are built with Typescript,
+                                React, Next.JS, and SQL Database. I am responsible for developing the
+                                optimized front end using all the latest rendering techniques
+                                i.e. SSR, SSG, ISG. On this back-end side, I work on building fully secured APIs
+                                with complete authorization using JWT and middleware.
+                            </p>
+                        </div>
+
+
                     </div>
                     <div className='mySkillsSecondDiv'
                         data-aos="fade-left"
@@ -120,7 +153,7 @@ function Skills() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

@@ -16,6 +16,8 @@ import ShoppingCart from '../../images/shoppingcart.png'
 import HostelSite from '../../images/hostel.png'
 import SpaceX from '../../images/spacex.png'
 import Todo from '../../images/todo.png'
+import Governor from '../../images/governor.png'
+import DMAS from '../../images/dmas.png'
 import Panaverse from '../../images/panaverse.png'
 import Piaic from '../../images/piaic.png'
 import { FaGlobe } from 'react-icons/fa'
@@ -28,6 +30,18 @@ function Work() {
         AOS.init();
     }, [])
     const cards = [
+        {
+            image: Governor,
+            site: 'https://www.governorsindh.com/',
+            github: 'https://github.com/governor-sindh/website',
+            heading: 'Governor’s Initiative Website'
+        },
+        {
+            image: DMAS,
+            site: 'https://dmas-site.vercel.app',
+            github: 'https://github.com/OkashaTanoli/dmas',
+            heading: 'DMAS Website'
+        },
         {
             image: Todo,
             site: 'https://okasha-todo-app.vercel.app/',
@@ -130,7 +144,7 @@ function Work() {
                         data-aos-duration="1000"
                         data-aos-mirror="true"
                         data-aos-once="false"
-                        data-aos-anchor-placement="top">My Work</h1>
+                        data-aos-anchor-placement="top">Work</h1>
                     <div className='workHeadUnderlineMianDiv'>
                         <div className='workHeadUnderline'
                             data-aos="fade-right"

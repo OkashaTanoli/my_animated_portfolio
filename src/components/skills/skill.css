@@ -17,13 +17,13 @@
 
 .skillHeadDiv {
     margin: 0 auto;
-    width: 220px;
+    width: 410px;
 }
 
 .skillHead {
     color: rgb(204, 139, 0);
     text-align: center;
-    line-height: 0;
+    /* line-height: 0; */
     font-size: 40px;
     font-family: custom3;
 }
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     width: 220px;
-    margin: 0 auto;
+    margin: -10px auto;
 }
 
 .skillHeadUnderline {
@@ -72,7 +72,7 @@
 }
 
 .mySkillsFirstDiv {
-    width: 45%;
+    width: 50%;
 }
 
 .mySkillsFirstDiv h1 {
@@ -90,7 +90,7 @@
     margin: 5px;
     border: 1px solid rgba(59, 59, 59, 0.602);
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 7px 15px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -127,7 +127,7 @@
     align-items: flex-end;
 } */
 .my_skills_second {
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     font-family: custom;
     align-items: center;
@@ -176,7 +176,7 @@
     margin-bottom: 20px;
 } */
 
-.htmlIcon, .cssIcon, .javascriptIcon, .reactjsIcon, .reactNativeIcon, .firebaseIcon, .reduxIcon, .typescriptIcon, .materialuiIcon, .githubIcon, .graphqlIcon, .nodeIcon, .mongoIcon, .ExpressIcon,.TailwindIcon,.NextIcon {
+.htmlIcon, .cssIcon, .javascriptIcon, .reactjsIcon, .reactNativeIcon, .firebaseIcon, .reduxIcon, .typescriptIcon, .materialuiIcon, .githubIcon, .graphqlIcon, .nodeIcon, .mongoIcon, .ExpressIcon, .TailwindIcon, .NextIcon, .openaiIcon {
     margin-left: 10px;
     font-size: 25px;
 }
@@ -213,10 +213,24 @@
     color: #1573C1;
 }
 
+.pwaIcon, .sanityIcon, .postgresqlIcon, .supabaseIcon {
+    margin-left: 10px;
+}
+
 .pwaIcon {
     width: 50px;
-    margin-left: 10px;
-    /* filter: grayscale(0.9); */
+}
+
+.sanityIcon {
+    width: 15px;
+}
+
+.postgresqlIcon {
+    width: 25px;
+}
+
+.supabaseIcon {
+    width: 20px;
 }
 
 .materialuiIcon {
@@ -230,21 +244,31 @@
 .graphqlIcon {
     color: #DA0093;
 }
-.nodeIcon{
+
+.nodeIcon {
     color: #44883e;
 }
-.mongoIcon{
+
+.mongoIcon {
     color: #4DB33D;
 }
-.ExpressIcon{
-    color :rgb(98, 98, 98);
+
+.ExpressIcon {
+    color: rgb(98, 98, 98);
 }
-.TailwindIcon{
+
+.TailwindIcon {
     color: #06B0CD;
 }
-.NextIcon{
+
+.NextIcon {
     color: rgb(47, 47, 47);
 }
+
+.openaiIcon {
+    color: rgb(255, 255, 255);
+}
+
 @media (max-width:1150px) {
     .skillSecondDiv {
         width: 90%;
@@ -317,6 +341,10 @@
 }
 
 @media (max-width:500px) {
+    .skillHeadDiv {
+        width: 250px;
+    }
+
     .mySkillsDiv {
         margin-top: 70px;
     }
@@ -343,6 +371,7 @@
         width: 100%;
         display: block;
     }
+
     .my_skills {
         justify-content: space-between !important;
     }

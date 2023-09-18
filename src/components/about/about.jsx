@@ -72,11 +72,10 @@ function About() {
                         data-aos-mirror="true"
                         data-aos-once="false"
                         data-aos-anchor-placement="top">
-                        <h1>Hey There! I'm Okasha Aijaz</h1>
+                        {/* <h1>Hey There! I'm Okasha Aijaz</h1> */}
                         <FaQuoteLeft className='invertedCommas' />
                         <p className='aboutText'>
-                            I am an 18 years old web developer and currently studying in college. I am front-end web developer with 1 and half year of experience.
-                        </p>
+                            A full-stack developer, with 3 years of experience in contributing to 15+ projects for national and international clients. Carrying the strong proficiency in leveraging the latest Technologies, I can create complete end-to-end solutions.                        </p>
                         <FaQuoteRight className='invertedCommas' />
                     </div>
                 </div>
@@ -89,13 +88,25 @@ function About() {
                     data-aos-once="false"
                     data-aos-anchor-placement="top">
                     <div className='qualificationDiv'>
-                        <h1>Qualification :</h1>
+                        <h1>Education :</h1>
                         <div className='qualificationExtraDiv'></div>
-                        <ul>
-                            <li className='matriculation'>I have passed matriculation examination from F.G. Public School Karachi Cantt with  <span style={{ fontSize: '25px', fontFamily: 'sans-serif', fontWeight: '800' }}>91.1%</span> (A+ Grade).</li>
-                            <li className='matriculation'>I have passed intermediate from F.G Boys Inter College Karachi with <span style={{ fontSize: '25px', fontFamily: 'sans-serif', fontWeight: '800' }}>77.4%</span> (A Grade).</li>
-                            {/* <li className='matriculation'>Currently I am studying ICS from F.G Boys Inter College Karachi.</li> */}
 
+                        <ul>
+                            <li className='matriculation'>
+                                <p style={{ padding: 0, margin: 0, lineHeight: '20px' }}>Mar 2020 - June 2022</p>
+                                <p style={{ fontSize: '25px', fontFamily: 'sans-serif', fontWeight: '800', padding: 0, margin: 0 }}>Intermediate, Computer Science</p>
+                                <p style={{ padding: 0, margin: 0, lineHeight: '20px' }}>FG Boys Inter College Karachi</p>
+                            </li>
+                            <li className='matriculation' style={{marginTop:'20px'}}>
+                                <p style={{ padding: 0, margin: 0, lineHeight: '20px' }}>Feb 2020 - Jan 2021</p>
+                                <p style={{ fontSize: '25px', fontFamily: 'sans-serif', fontWeight: '800', padding: 0, margin: 0 }}>MERN Stack, Web Development</p>
+                                <p style={{ padding: 0, margin: 0, lineHeight: '20px' }}>Saylani Mass IT Training</p>
+                            </li>
+                            <li className='matriculation' style={{marginTop:'20px'}}>
+                                <p style={{ padding: 0, margin: 0, lineHeight: '20px' }}>Sep 2022 - Present</p>
+                                <p style={{ fontSize: '25px', fontFamily: 'sans-serif', fontWeight: '800', padding: 0, margin: 0 }}>Web 3, AI, & Metaverse</p>
+                                <p style={{ padding: 0, margin: 0, lineHeight: '20px' }}>Presidential Initiative for Artificial Intelligence & Computing</p>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -69,8 +69,8 @@ function MianBlock() {
                     <h1 className='Helloh1'><MdWavingHand className='wavingIcon' /> Hello, I'm</h1>
                     <p className='namePara'>Okasha Aijaz</p>
                     <div className='expDiv'>
-                        <p className='expPara'>Web Developer</p>
-                        <p className='expPara2 expPara'>Web Designer</p>
+                        <p className='expPara'>Full Stack Developer</p>
+                        {/* <p className='expPara2 expPara'>Web Designer</p> */}
                     </div>
                     <a  href="https://github.com/OkashaTanoli" style={{ textDecoration: 'none' }} rel="noreferrer" target='_blank'>
                         <div className='githubDiv' ref={GithubAnimation.ref}

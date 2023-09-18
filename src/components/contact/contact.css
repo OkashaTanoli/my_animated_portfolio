@@ -120,19 +120,19 @@
 }
 
 .myEmail {
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
 }
 
 .myPhone {
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 5px;
 }
 
 .myAddress {
-    font-size: 25px;
-    word-spacing: 5px;
-    letter-spacing: 2px;
+    font-size: 22px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .contactSocialDiv {
